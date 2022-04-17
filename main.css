@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+div, p, input, button,form, span, a,ul, li{
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 1.7;
+}
+
+
+.header{
+background: rgba(4,203,176,1);
+background: -moz-linear-gradient(-45deg, rgba(4,203,176,1) 0%, rgba(3,120,253,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4,203,176,1)), color-stop(100%, rgba(3,120,253,1)));
+background: -webkit-linear-gradient(-45deg, rgba(4,203,176,1) 0%, rgba(3,120,253,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(4,203,176,1) 0%, rgba(3,120,253,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(4,203,176,1) 0%, rgba(3,120,253,1) 100%);
+background: linear-gradient(135deg, rgba(4,203,176,1) 0%, rgba(3,120,253,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04cbb0', endColorstr='#0378fd', GradientType=1 );
+padding-top: 23px;
+color: #fff;
+padding-bottom: 190px;
+text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+button {
+   margin-top: 20px; 
+}
+input {
+    margin-top: 20px;
+}
+.btn-header{
+    width: 343px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-top: 0px;
+    border: 0;
+}
+.btn:hover{
+    background: #d0a90c
+    } 
+
+.btn{
+    margin-top: 20px;
+    background: #ffd429;
+    color: black;
+        padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s easy;
+}
+
+.input{
+    width: 343px;
+    height: 50px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    border: 1px solid #bbbbbb;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+} 
+
+.wrapper{
+    text-align: center;
+}
