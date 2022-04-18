@@ -7,7 +7,7 @@ pub struct Contract {}
 
 #[near_bindgen]
 impl Contract {
-  pub fn challenge_hello(&self, name: String) -> std::string::String {
+  pub fn challenge(&self, name: String) -> std::string::String {
     return format!("Hello {name}!", name=name);
   }
 }
