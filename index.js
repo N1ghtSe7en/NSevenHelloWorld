@@ -1,8 +1,9 @@
-const SMART_CONTRACT_URL = "dev-1650108643381-34559926722748"
-const METHOD_NAME = "NAME"
+const SMART_CONTRACT_URL = "hi.nsevenhelloworld.testnet"
+const METHOD_NAME = "challenge"
 
-$("#HelloAll").click(function (e) {
+$("#helloall").click(function (e) {
   e.preventDefault()
+  //console.log("clicked")
   var nameInput = $("#name").val() 
   paramsBase64 = btoa(JSON.stringify({ name: nameInput })) 
 
